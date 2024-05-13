@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Head from 'next/head';
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <title>Vaishvi Shah</title>
         <link rel='icon' href='/favicon.ico'></link>
       </Head>
-      <Navbar />
+      <h1 className="text-2xl font-bold text-blue-900">Vaishvi Shah</h1>
     </div>
   );
 }
